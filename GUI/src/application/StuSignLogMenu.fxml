@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="331.0" prefWidth="519.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StuSignLogMenuController">
+   <children>
+      <Label layoutX="200.0" layoutY="14.0" text="Student Login/SignUp" />
+      <TextField fx:id="idField" layoutX="32.0" layoutY="54.0" prefHeight="29.0" prefWidth="361.0" promptText="Enter Your ID" />
+      <TextField fx:id="nameField" layoutX="32.0" layoutY="151.0" prefHeight="29.0" prefWidth="361.0" promptText="Enter Your Name" />
+      <TextField fx:id="dayField" layoutX="95.0" layoutY="195.0" prefHeight="29.0" prefWidth="51.0" promptText="Day" />
+      <TextField fx:id="monthField" layoutX="171.0" layoutY="195.0" prefHeight="29.0" prefWidth="51.0" promptText="Month" />
+      <TextField fx:id="yearField" layoutX="253.0" layoutY="195.0" prefHeight="29.0" prefWidth="51.0" promptText="Year" />
+      <Button fx:id="signUpButton" layoutX="304.0" layoutY="257.0" mnemonicParsing="false" onAction="#signUp" text="Sign Up" />
+      <Button fx:id="exitButton" layoutX="415.0" layoutY="257.0" mnemonicParsing="false" onAction="#handleExit" text="Exit" />
+      <Button fx:id="loginButton" layoutX="310.0" layoutY="96.0" mnemonicParsing="false" onAction="#gotoLogin" text="Log In" />
+      <Label layoutX="32.0" layoutY="201.0" text="Birth Date" />
+   </children>
+</AnchorPane>

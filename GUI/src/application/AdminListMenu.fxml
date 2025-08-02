@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminListMenuController">
+   <children>
+      <Label layoutX="162.0" layoutY="5.0" prefHeight="18.0" prefWidth="76.0" text="Admin Menu" />
+      <Button layoutX="307.0" layoutY="243.0" mnemonicParsing="false" onAction="#handleLogOut" text="Log Out" />
+      <Button layoutX="51.0" layoutY="93.0" mnemonicParsing="false" onAction="#handleAddCourseWorkshop" prefHeight="26.0" prefWidth="300.0" text="Add Couse &amp; Workshop Window" />
+      <Button layoutX="52.0" layoutY="130.0" mnemonicParsing="false" onAction="#handleChangeCourseStatus" prefHeight="26.0" prefWidth="300.0" text="Change Course Status, Registered Students Window" />
+      <Button layoutX="53.0" layoutY="165.0" mnemonicParsing="false" onAction="#handleSearchCourse" prefHeight="26.0" prefWidth="300.0" text="Search for Course Window" />
+      <Button layoutX="53.0" layoutY="204.0" mnemonicParsing="false" onAction="#handleAddTopicProject" prefHeight="26.0" prefWidth="300.0" text="Add Topic or Project Window" />
+   </children>
+</AnchorPane>

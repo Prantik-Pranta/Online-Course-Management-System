@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainStartMenu">
+   <children>
+      <AnchorPane layoutX="-135.0" layoutY="-109.0" prefHeight="135.0" prefWidth="313.0" />
+      <Button fx:id="adminLoginButton" layoutX="101.0" layoutY="72.0" mnemonicParsing="false" onAction="#handleAdminLogin" prefHeight="41.0" prefWidth="203.0" text="Login as Admin" />
+      <Button fx:id="studentLoginButton" layoutX="101.0" layoutY="129.0" mnemonicParsing="false" onAction="#handleStudentLogin" prefHeight="41.0" prefWidth="203.0" text="Login as Student" />
+      <Button fx:id="exitButton" layoutX="149.0" layoutY="196.0" mnemonicParsing="false" onAction="#handleExit" prefHeight="33.0" prefWidth="107.0" text="Exit" />
+      <Label layoutX="90.0" layoutY="39.0" prefHeight="17.0" prefWidth="232.0" text="      Online Course Management System" />
+   </children>
+</AnchorPane>
